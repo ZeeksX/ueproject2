@@ -10,21 +10,27 @@ body {
 }
 .navbar {
 	display: flex;
+	font-size: 0.9rem;
 	width: 100%;
 	justify-content: space-between;
-	padding: 1.5rem 1.5rem;
+	align-items: center;
+	padding: 1.5rem 1rem;
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 }
 .navbar img {
-	width: 30%;
+	width: 25%;
+}
+.nav-list{
+	margin-right: 0.8rem;
 }
 .nav-list-items {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-evenly;
-	gap: 1rem;
+	gap: 1.5rem;
 }
 .nav-list-items li:hover {
 	cursor: pointer;
@@ -204,6 +210,12 @@ body {
 	font-size: 1rem;
 	border-radius: 0.4rem;
 	box-shadow: 2px 2px 5px #131923;
+	
+}
+.signup h3 {
+    width: 100%;
+    color: #ff0000;
+    font-size: 0.8rem;
 }
 .signup h1 {
 	font-family: "Raleway", sans-serif;
@@ -236,6 +248,7 @@ body {
 .signup button:hover {
 	background-color: #60dfdb;
 }
+
 .footer {
 	background-color: #0c1524;
 }
@@ -305,6 +318,10 @@ body {
 @media only screen and (max-width: 375px) {
 	.nav-list-items {
 		gap: 0.5rem;
+	}
+	#emailError{
+		color: red;
+
 	}
 }
 @media only screen and (min-width: 425px) {
@@ -414,13 +431,21 @@ body {
 		gap: 2rem;
 	}
 	.signup input {
+		display: flex;
 		padding: 1rem 1.5rem;
-		width: 60%;
+		width: 80%;
+		margin: 2rem 0 0.5rem;
 	}
 	.signup button {
-		margin: 2rem auto;
-		flex: 1;
-		padding: 1rem;
+		margin: 2rem auto 0.5rem;
+		width: 40%;
+		
+	}
+	#emailError{
+		display: flex;
+		justify-content: flex-start;
+		margin: 0 1.5rem;
+		color: red;
 	}
 	.footer{
 		font-size: 0.8rem;

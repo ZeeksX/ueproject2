@@ -7,6 +7,7 @@ import FeaturesPage from "./components/FeaturesPage.vue";
 import TeamsPage from "./components/TeamsPage.vue";
 import SignupForm from "./components/SignupForm.vue";
 import FooterPage from "./components/FooterPage.vue";
+
 createApp(NavBar).component(".navbar");
 createApp(IntroPage).component(".intro");
 createApp(FeaturesPage).component(".features");
