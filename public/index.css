@@ -332,12 +332,13 @@ body {
 @media only screen and (min-width: 1024px) {
 	.navbar {
 		padding: 4rem;
+		font-size: 1rem;
 	}
 	.navbar img {
-		width: 10%;
+		width: auto;
 	}
 	.nav-list-items {
-		gap: 3rem;
+		gap: 4rem;
 	}
 	.intro {
 		background-image: url("./assets/bg-curvy-desktop.svg");
@@ -411,8 +412,8 @@ body {
 		height: 200px;
 	}
 	.teams {
-		height: fit-content;
-		padding: 7% 5%;
+		height: auto;
+		padding: 10% 5%;
 	}
 	.signup {
 		height: 300px;
@@ -420,7 +421,7 @@ body {
 	.signup-contents {
 		width: 75%;
 		padding: 3% 5%;
-		margin: 0 auto;
+		margin: 0rem auto;
 	}
 	.signup p {
 		font-size: 0.85rem;
@@ -433,13 +434,13 @@ body {
 	.signup input {
 		display: flex;
 		padding: 1rem 1.5rem;
-		width: 80%;
+		width: 70%;
 		margin: 2rem 0 0.5rem;
 	}
 	.signup button {
 		margin: 2rem auto 0.5rem;
 		width: 40%;
-		
+		padding: 2% 4%;
 	}
 	#emailError{
 		display: flex;
