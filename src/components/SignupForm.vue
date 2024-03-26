@@ -1,5 +1,5 @@
 <template>
-	<div id="signup" class="signup">
+	<div id="sign in" class="signup">
 		<div class="signup-contents">
 			<h1>{{ text }}</h1>
 			<p>{{ desc }}</p>
