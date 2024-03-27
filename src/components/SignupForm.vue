@@ -7,7 +7,7 @@
 				<input
 					type="text"
 					id="email"
-					placeholder="Enter your email"
+					placeholder="email@example.com"
 					v-model="inputEmail"
 				/>
 				<button type="submit">{{ button }}</button>

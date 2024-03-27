@@ -18,6 +18,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+	margin-bottom: 1.5rem;
 }
 .navbar img {
 	width: 25%;
@@ -83,15 +84,18 @@ body {
 	margin: 0 auto;
 	font-size: 1rem;
 	font-weight: 400;
+	color: #eaeef6;
+	opacity: 0.9;
 }
 .intro button {
-	background-color: #43b5d0;
+	background: linear-gradient(to right, #50c8d6 0%, #3daecf 100%);
 	margin: 2rem auto 0;
 	display: block;
 	border-radius: 30px;
-	padding: 0.8rem;
+	padding: 0.7rem;
 	width: 65%;
 	font-weight: 700;
+	font-family: "Raleway", sans-serif;
 }
 .intro button:hover {
 	background-color: #60dfdb;
@@ -118,6 +122,7 @@ body {
 	font-weight: 400;
 	font-size: 0.95rem;
 	width: 100%;
+	opacity: 0.9;
 }
 .productive p {
 	text-align: left;
@@ -128,8 +133,8 @@ body {
 .productive a {
 	display: inline-block;
 	padding-bottom: 0.2rem;
-	color: #60dfdb;
-	border-bottom: 2px solid #60dfdb;
+	color: #30b1ad;
+	border-bottom: 2px solid #30b1ad;
 	border-radius: 1px;
 	margin-bottom: 2.5rem;
 }
@@ -237,7 +242,7 @@ body {
 	color: black;
 }
 .signup button {
-	background-color: #43b5d0;
+	background: linear-gradient(to right, #50c8d6 0%, #3daecf 100%);
 	margin: 1rem auto 1rem;
 	display: block;
 	border-radius: 30px;
@@ -260,7 +265,7 @@ body {
 	justify-content: left;
 	padding: 0% 5% 1rem;
 }
-.footer-elements i, .footer-elements-items i {
+.footer-elements a, .footer-elements-items a {
 	margin-right: 1rem;
 	display: flex;
 	justify-content: center;
@@ -281,11 +286,11 @@ body {
 	padding: 5%;
 	flex-direction: column;
 }
-.footer-list li {
+.footer-list a {
 	padding: 0.5rem 0;
 }
-.footer-list li:hover {
-	font-weight: 700;
+.footer-list a:hover {
+	font-weight: 600;
 }
 .spacing {
 	margin: 1rem 0;
@@ -301,7 +306,7 @@ body {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
-	border: 2px solid white;
+	border: 1px solid white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -329,7 +334,7 @@ body {
 		gap: 1.5rem;
 	}
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
 	.navbar {
 		padding: 4rem;
 		font-size: 1rem;
@@ -360,7 +365,8 @@ body {
 		max-width: 30rem;
 	}
 	.intro button {
-		width: 15%;
+		width: 22%;
+		padding: 0.5rem;
 	}
 	.separator {
 		background-image: none;
@@ -386,7 +392,7 @@ body {
 		align-items: center;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 2rem;
+		gap: 3rem;
 		margin: 0 auto;
 	}
 	.features-icon {
@@ -399,6 +405,28 @@ body {
 		align-items: center;
 		gap: 3rem;
 	}
+	.productive-image{
+		width: 50%;
+	}
+	.productive-text{
+		width: 50%;
+		align-items: center;
+	
+	}
+	.productive a{
+		font-size: 0.75rem;
+		
+	}
+	
+	.productive p{
+		font-size: 0.8rem;
+		opacity: 0.9;
+	}
+	.productive h3{
+		font-size: 1.7rem;
+		text-align: left;
+		width: 60%;
+	}
 	.teams-profile {
 		display: flex;
 		flex-direction: row;
@@ -407,9 +435,12 @@ body {
 		gap: 2rem;
 	}
 	.team-player {
-		padding: 1rem;
-		width: 30%;
-		height: 200px;
+		padding: 1.5rem 1rem;
+		margin-bottom: 0;
+	
+	}
+	.teams i{
+		margin: 0;
 	}
 	.teams {
 		height: auto;
@@ -433,14 +464,16 @@ body {
 	}
 	.signup input {
 		display: flex;
-		padding: 1rem 1.5rem;
+		padding: 0.75rem 2rem;
 		width: 70%;
-		margin: 2rem 0 0.5rem;
+		margin: 2rem 0 1rem;
 	}
 	.signup button {
-		margin: 2rem auto 0.5rem;
-		width: 40%;
-		padding: 2% 4%;
+		margin: 2rem auto 1rem;
+		width: 35%;
+		padding: 0.75rem 1rem;
+		font-weight: 700;
+		font-size: 0.9rem;
 	}
 	#emailError{
 		display: flex;
@@ -478,8 +511,9 @@ body {
 		padding-top: 0;
 		margin: 0
 	}
-	.footer-list li{
+	.footer-list a{
 		padding-top: 0;
+		display: block;
 	}
 	.social-icons{
 		padding-top: 0;
@@ -513,6 +547,7 @@ body {
 	.productive{
 		gap: 5rem;
 	}
+	
 	.productive h3{
 		font-size: 1.6rem;
 	}

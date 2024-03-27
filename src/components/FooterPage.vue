@@ -3,7 +3,7 @@
 		<img :src="link" />
 		<div class="footer-contents">
 			<div class="footer-elements" :key="0">
-				<i :class="footers[0].icon"></i>
+				<a :class="footers[0].icon"></a>
 				<p>{{ footers[0].text }}</p>
 			</div>
 			<div class="footer-elements-two">
@@ -13,7 +13,7 @@
 					:key="index"
 				>
 					<div class="footer-elements-items" v-if="index > 0">
-						<i :class="footer.icon"></i>
+						<a :class="footer.icon"></a>
 						<p>{{ footer.text }}</p>
 					</div>
 				</div>
@@ -21,21 +21,21 @@
 
 			<ul class="footer-list">
 				<div>
-					<li v-for="(item, index) in lists" :key="'list_' + index">
+					<a v-for="(item, index) in lists" :key="'list_' + index">
 						{{ item }}
-					</li>
+					</a>
 				</div>
-				<li class="spacing"></li>
+				<a class="spacing"></a>
 				<div>
-					<li v-for="(item, index) in footerList" :key="'footer_' + index">
+					<a v-for="(item, index) in footerList" :key="'footer_' + index">
 						{{ item }}
-					</li>
+					</a>
 				</div>
 			</ul>
 			<div class="social-icons">
-				<i class="fa-brands fa-facebook-f"></i>
-				<i class="fa-brands fa-twitter"></i>
-				<i class="fa-brands fa-instagram"></i>
+				<a><i class="fa-brands fa-facebook-f"></i></a>
+				<a><i class="fa-brands fa-twitter"></i></a>
+				<a><i class="fa-brands fa-instagram"></i></a>
 			</div>
 		</div>
 	</div>
