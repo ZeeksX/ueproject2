@@ -295,6 +295,8 @@ body {
 }
 .footer-list a {
 	padding: 0.5rem 0;
+	display: flex;
+	
 }
 .footer-list a:hover {
 	font-weight: 600;
