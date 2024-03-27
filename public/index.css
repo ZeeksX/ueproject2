@@ -544,6 +544,15 @@ body {
 	.features-container {
 		gap: 7rem;
 	}
+	.productive{
+		gap: 6rem;
+	}
+	.productive-text h3{
+		width: 50%;
+	}
+	.productive-text p, .productive a{
+		font-size: 0.9rem;
+	}
 	.teams-profile {
 		gap: 4rem;
 		width: 85%;
