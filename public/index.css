@@ -392,11 +392,14 @@ body {
 		align-items: center;
 		flex-direction: row;
 		flex-wrap: wrap;
-		gap: 3rem;
+		gap: 4rem;
 		margin: 0 auto;
 	}
 	.features-icon {
-		width: 26rem;
+		max-width: 24rem;
+	}
+	.features-icon img{
+		height: 80px;
 	}
 	.productive {
 		display: flex;
@@ -406,7 +409,7 @@ body {
 		gap: 3rem;
 	}
 	.productive-image{
-		width: 70%;
+		width: 50%;
 	}
 	.productive-text{
 		width: 50%;
@@ -432,20 +435,27 @@ body {
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		gap: 2rem;
+		gap: 2.8rem;
 	}
 	.team-player {
-		padding: 1.5rem 1rem;
+		padding: 2rem 1rem 1rem;
 		margin-bottom: 0;
-	
 	}
 	.teams i{
 		margin: 0;
 	}
 	.teams {
 		height: auto;
-		padding: 10% 5%;
+		padding: 5% 5% 10%;
+		font-size: 0.65rem;
 	}
+	.players-details h3 {
+		font-size: inherit;
+	}
+	.players-details p{
+		font-size: 0.55rem;
+	}
+	
 	.signup {
 		height: 300px;
 	}
@@ -526,55 +536,5 @@ body {
 	}
 }
 @media only screen and (min-width: 1440px) {
-	.intro button {
-		margin-bottom: 2rem;
-	}
-	.intro {
-		background-size: 100% 33%;
-		min-height: 900px;
-	}
-	.features {
-		margin-top: 0;
-		padding-top: 0;
-	}
-	.features-icon{
-		width: 30rem;
-		height: 280px;
-	}
-	.features-container{
-		margin-top: 0;
-	}
-	.productive{
-		gap: 5rem;
-	}
-	
-	.productive h3{
-		font-size: 1.6rem;
-	}
-	.productive p{
-		font-size: 1.2rem;
-	}
-	.productive-text{
-		width: 60%;
-	}
-	.productive a{
-		font-size: 1.2rem;
-	}
-	.features-container{
-		gap: 4rem;
-	}
-	.footer-contents{
-		font-size: 1rem;
-	}
-	.footer-elements{
-		font-size: 1rem;
-		
-	}
-	.footer-elements p{
-		font-size: 1rem;
-	}
-	.footer-elements-two{
-		font-size: 1rem;
-		
-	}
+
 }
