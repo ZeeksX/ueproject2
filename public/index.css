@@ -23,7 +23,7 @@ body {
 .navbar img {
 	width: 25%;
 }
-.nav-list{
+.nav-list {
 	margin-right: 0.8rem;
 }
 .nav-list-items {
@@ -215,12 +215,11 @@ body {
 	font-size: 1rem;
 	border-radius: 0.4rem;
 	box-shadow: 2px 2px 5px #131923;
-	
 }
 .signup h3 {
-    width: 100%;
-    color: #ff0000;
-    font-size: 0.8rem;
+	width: 100%;
+	color: #ff0000;
+	font-size: 0.8rem;
 }
 .signup h1 {
 	font-family: "Raleway", sans-serif;
@@ -265,7 +264,8 @@ body {
 	justify-content: left;
 	padding: 0% 5% 1rem;
 }
-.footer-elements a, .footer-elements-items a {
+.footer-elements a,
+.footer-elements-items a {
 	margin-right: 1rem;
 	display: flex;
 	justify-content: center;
@@ -274,7 +274,7 @@ body {
 .footer-elements p {
 	font-size: 1.1rem;
 }
-.footer-elements-items{
+.footer-elements-items {
 	display: flex;
 	flex-direction: row;
 	padding: 0% 5% 1rem;
@@ -324,9 +324,8 @@ body {
 	.nav-list-items {
 		gap: 0.5rem;
 	}
-	#emailError{
+	#emailError {
 		color: red;
-
 	}
 }
 @media only screen and (min-width: 425px) {
@@ -398,7 +397,7 @@ body {
 	.features-icon {
 		max-width: 24rem;
 	}
-	.features-icon img{
+	.features-icon img {
 		height: 80px;
 	}
 	.productive {
@@ -408,24 +407,22 @@ body {
 		align-items: center;
 		gap: 3rem;
 	}
-	.productive-image{
+	.productive-image {
 		width: 50%;
 	}
-	.productive-text{
+	.productive-text {
 		width: 50%;
 		align-items: center;
-	
 	}
-	.productive a{
+	.productive a {
 		font-size: 0.75rem;
-		
 	}
-	
-	.productive p{
+
+	.productive p {
 		font-size: 0.8rem;
 		opacity: 0.9;
 	}
-	.productive h3{
+	.productive h3 {
 		font-size: 1.7rem;
 		text-align: left;
 		width: 60%;
@@ -441,7 +438,7 @@ body {
 		padding: 2rem 1rem 1rem;
 		margin-bottom: 0;
 	}
-	.teams i{
+	.teams i {
 		margin: 0;
 	}
 	.teams {
@@ -452,10 +449,10 @@ body {
 	.players-details h3 {
 		font-size: inherit;
 	}
-	.players-details p{
+	.players-details p {
 		font-size: 0.55rem;
 	}
-	
+
 	.signup {
 		height: 300px;
 	}
@@ -485,84 +482,83 @@ body {
 		font-weight: 700;
 		font-size: 0.9rem;
 	}
-	#emailError{
+	#emailError {
 		display: flex;
 		justify-content: flex-start;
 		margin: 0 1.5rem;
 		color: red;
 	}
-	.footer{
+	.footer {
 		font-size: 0.8rem;
 	}
-	.footer-contents{
+	.footer-contents {
 		display: flex;
 		flex-direction: row;
 		padding: 0 1rem;
 		justify-content: center;
 		gap: 2rem;
 	}
-	.footer-elements{
+	.footer-elements {
 		width: 30%;
 		padding: 0;
 		font-size: 0.7rem;
-		
 	}
-	.footer-elements p{
+	.footer-elements p {
 		font-size: 0.8rem;
 	}
-	.footer-elements-two{
+	.footer-elements-two {
 		font-size: 0.7rem;
 		width: 15%;
 	}
-	.footer-list{
+	.footer-list {
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
 		padding-top: 0;
-		margin: 0
+		margin: 0;
 	}
-	.footer-list a{
+	.footer-list a {
 		padding-top: 0;
 		display: block;
 	}
-	.social-icons{
+	.social-icons {
 		padding-top: 0;
-		
 	}
-	.social-icons i{
+	.social-icons i {
 		font-size: 0.7rem;
 		width: 30px;
 		height: 30px;
 	}
 }
 @media only screen and (min-width: 1440px) {
-	.intro button{
+	.intro button {
 		width: 15%;
 	}
-	.features-container{
+	.features-container {
 		gap: 7rem;
 	}
-	.teams-profile{
+	.teams-profile {
 		gap: 4rem;
-		width: 85%;	
+		width: 85%;
 		margin: 0 auto;
 	}
-	.teams i{
+	.teams i {
 		margin: 0 5rem;
 	}
-	.team-player{
+	.team-player {
 		transform: scale(1.05);
 	}
-	.signup-contents{
+	.signup-contents {
 		width: 60%;
 	}
-	.footer{
+	.footer {
 		font-size: 1rem;
 	}
-	.footer-elements p, .footer-elements a{
+	.footer-elements p,
+	.footer-elements a {
 		font-size: 1rem;
 	}
-	.footer-elements-items{
+	.footer-elements-items {
 		font-size: 1rem;
 	}
 }
