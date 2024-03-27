@@ -3,8 +3,8 @@
 	<IntroPage />
 	<FeaturesPage />
 	<TeamsPage />
-	<SignupForm/>
-	<FooterPage/>
+	<SignupForm />
+	<FooterPage />
 </template>
 
 <script>
@@ -14,7 +14,7 @@ import IntroPage from "./components/IntroPage.vue";
 import FeaturesPage from "./components/FeaturesPage.vue";
 import TeamsPage from "./components/TeamsPage.vue";
 import SignupForm from "./components/SignupForm.vue"
-import  FooterPage  from "./components/FooterPage.vue";
+import FooterPage from "./components/FooterPage.vue";
 export default {
 	name: "App",
 	components: {
@@ -27,5 +27,3 @@ export default {
 	},
 };
 </script>
-
-<style src="../public/index.css"></style>

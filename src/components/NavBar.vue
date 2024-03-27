@@ -3,7 +3,9 @@
 		<img src="../assets/logo.svg" alt="logo" />
 		<div class="nav-list">
 			<ul class="nav-list-items">
-				<li v-for="(nav, index) in navlist" :key="index" @click="navigateTo(nav)">{{ nav }}</li>
+				<li v-for="(nav, index) in navlist" :key="index" @click="navigateTo(nav)">
+					{{ nav }}
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -17,12 +19,12 @@ export default {
 		};
 	},
 	methods: {
-		navigateTo(nav){
+		navigateTo(nav) {
 			const item = document.getElementById(nav.toLowerCase());
-			if(item){
-				item.scrollIntoView({behavior: 'smooth'})
+			if (item) {
+				item.scrollIntoView({ behavior: "smooth" });
 			}
-		}
-	}
+		},
+	},
 };
 </script>

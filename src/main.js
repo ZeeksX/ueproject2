@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./assets/tailwind.css";
+import "../public/index.css";
 import NavBar from "./components/NavBar.vue";
 import IntroPage from "./components/IntroPage.vue";
 import FeaturesPage from "./components/FeaturesPage.vue";

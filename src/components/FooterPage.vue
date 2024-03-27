@@ -7,18 +7,13 @@
 				<p>{{ footers[0].text }}</p>
 			</div>
 			<div class="footer-elements-two">
-				<div
-					class="footer-elements-list"
-					v-for="(footer, index) in footers"
-					:key="index"
-				>
+				<div class="footer-elements-list" v-for="(footer, index) in footers" :key="index">
 					<div class="footer-elements-items" v-if="index > 0">
 						<a :class="footer.icon"></a>
 						<p>{{ footer.text }}</p>
 					</div>
 				</div>
 			</div>
-
 			<ul class="footer-list">
 				<div>
 					<a v-for="(item, index) in lists" :key="'list_' + index">

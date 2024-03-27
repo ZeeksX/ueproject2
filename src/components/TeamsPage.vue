@@ -3,19 +3,19 @@
 		<i class="fa-solid fa-quote-left"></i>
 		<div class="teams-profile">
 			<div v-for="(player, index) in teamsList" class="team-player" :key="index">
-			<p>{{ player.text }}</p>
-			<div class="players">
-				<div class="players-image">
-					<img :src="player.image" />
-				</div>
-				<div class="players-details">
-					<h3>{{ player.name }}</h3>
-					<p>{{ player.title }}</p>
+				<p>{{ player.text }}</p>
+				<div class="players">
+					<div class="players-image">
+						<img :src="player.image" />
+					</div>
+					<div class="players-details">
+						<h3>{{ player.name }}</h3>
+						<p>{{ player.title }}</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		</div>
-		
+
 	</div>
 </template>
 <script>

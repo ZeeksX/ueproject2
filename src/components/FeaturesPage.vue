@@ -7,7 +7,6 @@
 				<p>{{ feature.desc }}</p>
 			</div>
 		</div>
-
 		<div class="productive">
 			<div class="productive-image">
 				<img src="../assets/illustration-stay-productive.png" />
@@ -19,7 +18,6 @@
 				</p>
 				<a href="#">{{ anchor }} <i class="fa-solid fa-circle-arrow-right"></i></a>
 			</div>
-
 		</div>
 	</div>
 </template>

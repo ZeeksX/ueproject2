@@ -19,12 +19,12 @@ export default {
 		};
 	},
 	methods: {
-		navigateTo(){
+		navigateTo() {
 			const element = document.getElementById("sign in");
-			if(element){
-				element.scrollIntoView({behavior: 'smooth'});
+			if (element) {
+				element.scrollIntoView({ behavior: 'smooth' });
 			}
-			
+
 		}
 	}
 };
