@@ -12,11 +12,11 @@
 				<img src="../assets/illustration-stay-productive.png" />
 			</div>
 			<div class="productive-text">
-				<h3>{{ text }}</h3>
+				<h3>Stay productive, wherever you are</h3>
 				<p v-for="(productive, index) in productiveList" :key="index">
 					{{ productive.text }}
 				</p>
-				<a href="#">{{ anchor }} <i class="fa-solid fa-circle-arrow-right"></i></a>
+				<a href="#">See how Fylo works<i class="fa-solid fa-circle-arrow-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -27,8 +27,6 @@ export default {
 	name: "FeaturesPage",
 	data() {
 		return {
-			text: "Stay productive, wherever you are",
-			anchor: "See how Fylo works",
 			productiveList: [
 				{
 					text: "Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.",

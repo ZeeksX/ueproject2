@@ -1,14 +1,14 @@
 <template>
 	<div class="footer">
-		<img :src="link" />
+		<img src="../assets/logo.svg"/>
 		<div class="footer-contents">
-			<div class="footer-elements" :key="0">
-				<a :class="footers[0].icon"></a>
-				<p>{{ footers[0].text }}</p>
+			<div class="footer-elements">
+				<a class="fa-solid fa-location-dot"></a>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 			</div>
 			<div class="footer-elements-two">
 				<div class="footer-elements-list" v-for="(footer, index) in footers" :key="index">
-					<div class="footer-elements-items" v-if="index > 0">
+					<div class="footer-elements-items">
 						<a :class="footer.icon"></a>
 						<p>{{ footer.text }}</p>
 					</div>
@@ -16,13 +16,13 @@
 			</div>
 			<ul class="footer-list">
 				<div>
-					<a v-for="(item, index) in lists" :key="'list_' + index">
+					<a v-for="(item, index) in lists" :key="index">
 						{{ item }}
 					</a>
 				</div>
 				<a class="spacing"></a>
 				<div>
-					<a v-for="(item, index) in footerList" :key="'footer_' + index">
+					<a v-for="(item, index) in footerList" :key="index">
 						{{ item }}
 					</a>
 				</div>
@@ -35,17 +35,14 @@
 		</div>
 	</div>
 </template>
+
 <script>
 export default {
 	name: "FooterPage",
 	data() {
 		return {
-			link: "./assets/logo.svg",
 			footers: [
-				{
-					icon: "fa-solid fa-location-dot",
-					text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-				},
+	
 				{
 					icon: "fa-solid fa-phone-volume",
 					text: "+1-543-123-4567",
